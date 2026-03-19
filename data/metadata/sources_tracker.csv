@@ -1,0 +1,10 @@
+source_id,source_name,source_type,url,license_or_terms,legal_status,usage_mode,topic,notes,status
+SRC0001,Tự biên soạn nội bộ demo,internal_authoring,NA,author_owned,allowed,self_authored,ngu_van_thpt,Dùng cho bộ demo ban đầu,approved
+SRC0002,Ghi chú học thuật tự viết,internal_note,NA,author_owned,allowed,self_authored,ngu_van_thpt,Chỉ diễn giải kiến thức chung không sao chép,approved
+SRC0003,Nguồn công khai mẫu 01,public_web,TBD,TBD,review_needed,paraphrase_only,ngu_van_thpt,Cần kiểm tra license trước khi dùng,pending
+SRC0004,Nguồn công khai mẫu 02,public_web,TBD,TBD,review_needed,paraphrase_only,doc_hieu,Cần kiểm tra điều khoản sử dụng,pending
+SRC0005,Nguồn công khai mẫu 03,official_document,TBD,TBD,review_needed,paraphrase_only,ky_nang_viet,Cần xác nhận mức độ cho phép,pending
+SRC0006,Nguồn mở mẫu 01,open_resource,TBD,TBD,review_needed,paraphrase_only,tieng_viet,Cần xác nhận cách trích dẫn,pending
+SRC0007,Nguồn mở mẫu 02,open_resource,TBD,TBD,review_needed,paraphrase_only,nghi_luan,Cần xác nhận cách paraphrase,pending
+SRC0008,Nguồn sẽ bổ sung sau 01,unknown,TBD,TBD,not_checked,not_use_yet,khac,Chưa được phép dùng khi chưa kiểm tra,pending
+SRC0009,Nguồn sẽ bổ sung sau 02,unknown,TBD,TBD,not_checked,not_use_yet,khac,Chưa được phép dùng khi chưa kiểm tra,pending
