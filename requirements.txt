@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+datasets
+huggingface_hub
+pyarrow
+openpyxl
+python-dotenv
+jupyter
