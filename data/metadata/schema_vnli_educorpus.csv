@@ -1,0 +1,15 @@
+field_name,required,dtype,description,allowed_values,example
+id,yes,string,Unique sample identifier,free_text,VNLI_DEMO_0001
+premise,yes,string,Premise text,free_text,Học sinh cần nêu luận điểm rõ ràng ở phần mở đầu.
+hypothesis,yes,string,Hypothesis text,free_text,Phần mở đầu có thể trình bày luận điểm chính.
+label,yes,string,NLI label,ENT|CON|NEU,ENT
+topic,yes,string,Topic of the sample,ngu_van_thpt|doc_hieu|tieng_viet|nghi_luan,ngu_van_thpt
+grade_level,no,string,Target grade level,10|11|12,12
+subject,yes,string,Subject area,Ngu_van,Ngu_van
+source_id,yes,string,Link to source tracker,source_id,SRC0001
+license,yes,string,Usage status of source,author_owned|paraphrase_only|review_needed,author_owned
+difficulty,no,string,Estimated difficulty,easy|medium|hard,easy
+negation_flag,no,string,Whether negation appears,yes|no,no
+annotator_id,no,string,Annotator identifier,free_text,author_v1
+adjudication_note,no,string,Short note after review,free_text,initial_demo
+split,no,string,Dataset split,demo|train|dev|test,demo
