@@ -1,0 +1,31 @@
+id,premise,hypothesis,label,topic,grade_level,subject,source_id,license,difficulty,negation_flag,annotator_id,adjudication_note,split
+VNLI_DEMO_0001,Đoạn văn yêu cầu người viết nêu luận điểm chính ngay ở phần mở đầu.,Phần mở đầu có thể trình bày luận điểm chính.,ENT,nghi_luan,12,Ngu_van,SRC0001,author_owned,easy,no,author_v1,initial_demo,demo
+VNLI_DEMO_0002,Giáo viên yêu cầu học sinh viết đoạn văn khoảng 200 chữ về ý nghĩa của lòng biết ơn.,Học sinh sẽ viết về một chủ đề xã hội.,ENT,nghi_luan,12,Ngu_van,SRC0001,author_owned,easy,no,author_v1,initial_demo,demo
+VNLI_DEMO_0003,Văn bản cho biết tác giả sử dụng ngôi kể thứ nhất.,Người kể chuyện xưng tôi.,ENT,doc_hieu,11,Ngu_van,SRC0001,author_owned,easy,no,author_v1,initial_demo,demo
+VNLI_DEMO_0004,Tài liệu ôn tập nhấn mạnh rằng học sinh không nên học tủ trước kì kiểm tra.,Học tủ là cách học không được khuyến khích.,ENT,ky_nang_viet,12,Ngu_van,SRC0001,author_owned,easy,yes,author_v1,initial_demo,demo
+VNLI_DEMO_0005,Đoạn văn mẫu đặt câu chủ đề ở câu đầu tiên.,Người đọc có thể nhận ra ý chính ngay từ đầu đoạn.,ENT,doc_hieu,10,Ngu_van,SRC0001,author_owned,easy,no,author_v1,initial_demo,demo
+VNLI_DEMO_0006,Đề bài yêu cầu so sánh hai nhân vật trong hai đoạn trích.,Bài làm cần đề cập đến cả hai nhân vật.,ENT,nghi_luan,12,Ngu_van,SRC0001,author_owned,easy,no,author_v1,initial_demo,demo
+VNLI_DEMO_0007,Trong đoạn thơ người viết lặp lại nhiều lần cụm từ quê hương.,Đoạn thơ có sử dụng phép lặp.,ENT,doc_hieu,10,Ngu_van,SRC0001,author_owned,medium,no,author_v1,initial_demo,demo
+VNLI_DEMO_0008,Phần kết bài được hướng dẫn dùng để khái quát lại vấn đề đã bàn luận.,Kết bài có chức năng tổng kết vấn đề.,ENT,nghi_luan,11,Ngu_van,SRC0001,author_owned,easy,no,author_v1,initial_demo,demo
+VNLI_DEMO_0009,Đoạn thơ thể hiện tình cảm gắn bó giữa các thành viên trong gia đình.,Đoạn thơ nói về tình cảm gia đình.,ENT,doc_hieu,10,Ngu_van,SRC0001,author_owned,easy,no,author_v1,initial_demo,demo
+VNLI_DEMO_0010,Hướng dẫn làm bài nói rõ rằng không cần dùng dẫn chứng ngoài văn bản cho câu hỏi này.,Học sinh chỉ cần dựa vào văn bản đã cho để trả lời.,ENT,doc_hieu,12,Ngu_van,SRC0001,author_owned,medium,yes,author_v1,initial_demo,demo
+VNLI_DEMO_0011,Văn bản cho biết nhân vật im lặng trong suốt buổi đối thoại.,Nhân vật nói rất nhiều trong buổi đối thoại.,CON,doc_hieu,11,Ngu_van,SRC0001,author_owned,easy,no,author_v1,initial_demo,demo
+VNLI_DEMO_0012,Đề bài yêu cầu nêu tác dụng của biện pháp so sánh trong câu thơ.,Học sinh chỉ cần xác định tên tác giả của bài thơ.,CON,tieng_viet,10,Ngu_van,SRC0001,author_owned,easy,no,author_v1,initial_demo,demo
+VNLI_DEMO_0013,Giáo viên dặn học sinh không chép lại nguyên câu hỏi vào bài kiểm tra.,Học sinh phải chép nguyên câu hỏi vào bài làm.,CON,ky_nang_viet,12,Ngu_van,SRC0001,author_owned,easy,yes,author_v1,initial_demo,demo
+VNLI_DEMO_0014,Ngữ liệu cho biết câu chuyện diễn ra tại một vùng biển.,Câu chuyện diễn ra trên núi cao.,CON,doc_hieu,10,Ngu_van,SRC0001,author_owned,easy,no,author_v1,initial_demo,demo
+VNLI_DEMO_0015,Bài làm hoàn chỉnh được hướng dẫn gồm mở đoạn thân đoạn và kết đoạn.,Bài làm chỉ cần một câu duy nhất là đủ.,CON,ky_nang_viet,10,Ngu_van,SRC0001,author_owned,easy,no,author_v1,initial_demo,demo
+VNLI_DEMO_0016,Văn bản cho biết người cha ủng hộ quyết định của người con.,Người cha phản đối quyết định của người con.,CON,doc_hieu,11,Ngu_van,SRC0001,author_owned,easy,no,author_v1,initial_demo,demo
+VNLI_DEMO_0017,Tác giả sử dụng giọng điệu trang trọng trong toàn bộ bài viết.,Bài viết mang giọng điệu hài hước và bông đùa.,CON,doc_hieu,12,Ngu_van,SRC0001,author_owned,medium,no,author_v1,initial_demo,demo
+VNLI_DEMO_0018,Đề bài yêu cầu viết đoạn văn từ 5 đến 7 câu.,Học sinh phải viết bài văn 600 chữ.,CON,ky_nang_viet,10,Ngu_van,SRC0001,author_owned,easy,no,author_v1,initial_demo,demo
+VNLI_DEMO_0019,Trong ngữ cảnh này từ xuân được dùng để chỉ tuổi trẻ của con người.,Từ xuân trong câu được dùng để chỉ mùa trong năm.,CON,tieng_viet,12,Ngu_van,SRC0001,author_owned,medium,no,author_v1,initial_demo,demo
+VNLI_DEMO_0020,Văn bản nhấn mạnh giá trị của sự trung thực trong học tập.,Văn bản cổ vũ hành vi gian lận trong thi cử.,CON,nghi_luan,11,Ngu_van,SRC0001,author_owned,easy,no,author_v1,initial_demo,demo
+VNLI_DEMO_0021,Đoạn trích nói về tình bạn trong những năm học phổ thông.,Tác giả của đoạn trích sinh ra ở Huế.,NEU,doc_hieu,10,Ngu_van,SRC0001,author_owned,medium,no,author_v1,initial_demo,demo
+VNLI_DEMO_0022,Đề bài yêu cầu trình bày suy nghĩ về lợi ích của việc đọc sách.,Học sinh thích đọc tiểu thuyết trinh thám.,NEU,nghi_luan,12,Ngu_van,SRC0001,author_owned,medium,no,author_v1,initial_demo,demo
+VNLI_DEMO_0023,Văn bản cho biết nhân vật trở về quê sau nhiều năm xa cách.,Quê của nhân vật nằm cạnh biển.,NEU,doc_hieu,11,Ngu_van,SRC0001,author_owned,medium,no,author_v1,initial_demo,demo
+VNLI_DEMO_0024,Giáo viên yêu cầu học sinh làm việc nhóm để thảo luận chi tiết nghệ thuật.,Mỗi nhóm gồm đúng bốn học sinh.,NEU,ky_nang_viet,10,Ngu_van,SRC0001,author_owned,medium,no,author_v1,initial_demo,demo
+VNLI_DEMO_0025,Bài đọc hiểu nhắc đến hình ảnh cơn mưa đầu mùa.,Người viết thích học toán hơn học văn.,NEU,doc_hieu,10,Ngu_van,SRC0001,author_owned,medium,no,author_v1,initial_demo,demo
+VNLI_DEMO_0026,Ngữ liệu có sử dụng một câu hỏi tu từ ở cuối đoạn văn.,Người viết đã từng đoạt giải văn cấp quốc gia.,NEU,tieng_viet,12,Ngu_van,SRC0001,author_owned,medium,no,author_v1,initial_demo,demo
+VNLI_DEMO_0027,Đoạn văn phân tích tác hại của thói quen trì hoãn.,Người viết từng là học sinh chuyên văn.,NEU,nghi_luan,11,Ngu_van,SRC0001,author_owned,medium,no,author_v1,initial_demo,demo
+VNLI_DEMO_0028,Đề bài yêu cầu liên hệ bản thân sau khi phân tích văn bản.,Học sinh sẽ nộp bài bằng hình thức trực tuyến.,NEU,nghi_luan,12,Ngu_van,SRC0001,author_owned,medium,no,author_v1,initial_demo,demo
+VNLI_DEMO_0029,Văn bản cho thấy người mẹ luôn dậy sớm để chuẩn bị bữa sáng cho con.,Gia đình nhân vật sống ở một thành phố lớn.,NEU,doc_hieu,10,Ngu_van,SRC0001,author_owned,medium,no,author_v1,initial_demo,demo
+VNLI_DEMO_0030,Giáo viên yêu cầu học sinh đọc kĩ phần chú thích trước khi trả lời câu hỏi.,Bài kiểm tra sẽ kéo dài 45 phút.,NEU,ky_nang_viet,11,Ngu_van,SRC0001,author_owned,medium,no,author_v1,initial_demo,demo
