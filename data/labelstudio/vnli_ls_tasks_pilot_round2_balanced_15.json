@@ -1,0 +1,197 @@
+[
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0003",
+      "premise": "Văn bản cho biết tác giả sử dụng ngôi kể thứ nhất.",
+      "hypothesis": "Người kể chuyện xưng tôi.",
+      "topic": "doc_hieu",
+      "grade_level": "11",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "easy",
+      "negation_flag": "no"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0004",
+      "premise": "Tài liệu ôn tập nhấn mạnh rằng học sinh không nên học tủ trước kì kiểm tra.",
+      "hypothesis": "Học tủ là cách học không được khuyến khích.",
+      "topic": "ky_nang_viet",
+      "grade_level": "12",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "easy",
+      "negation_flag": "yes"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0007",
+      "premise": "Trong đoạn thơ người viết lặp lại nhiều lần cụm từ quê hương.",
+      "hypothesis": "Đoạn thơ có sử dụng phép lặp.",
+      "topic": "doc_hieu",
+      "grade_level": "10",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "medium",
+      "negation_flag": "no"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0008",
+      "premise": "Phần kết bài được hướng dẫn dùng để khái quát lại vấn đề đã bàn luận.",
+      "hypothesis": "Kết bài có chức năng tổng kết vấn đề.",
+      "topic": "nghi_luan",
+      "grade_level": "11",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "easy",
+      "negation_flag": "no"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0010",
+      "premise": "Hướng dẫn làm bài nói rõ rằng không cần dùng dẫn chứng ngoài văn bản cho câu hỏi này.",
+      "hypothesis": "Học sinh chỉ cần dựa vào văn bản đã cho để trả lời.",
+      "topic": "doc_hieu",
+      "grade_level": "12",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "medium",
+      "negation_flag": "yes"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0011",
+      "premise": "Văn bản cho biết nhân vật im lặng trong suốt buổi đối thoại.",
+      "hypothesis": "Nhân vật nói rất nhiều trong buổi đối thoại.",
+      "topic": "doc_hieu",
+      "grade_level": "11",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "easy",
+      "negation_flag": "no"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0013",
+      "premise": "Giáo viên dặn học sinh không chép lại nguyên câu hỏi vào bài kiểm tra.",
+      "hypothesis": "Học sinh phải chép nguyên câu hỏi vào bài làm.",
+      "topic": "ky_nang_viet",
+      "grade_level": "12",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "easy",
+      "negation_flag": "yes"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0017",
+      "premise": "Tác giả sử dụng giọng điệu trang trọng trong toàn bộ bài viết.",
+      "hypothesis": "Bài viết mang giọng điệu hài hước và bông đùa.",
+      "topic": "doc_hieu",
+      "grade_level": "12",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "medium",
+      "negation_flag": "no"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0019",
+      "premise": "Trong ngữ cảnh này từ xuân được dùng để chỉ tuổi trẻ của con người.",
+      "hypothesis": "Từ xuân trong câu được dùng để chỉ mùa trong năm.",
+      "topic": "tieng_viet",
+      "grade_level": "12",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "medium",
+      "negation_flag": "no"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0020",
+      "premise": "Văn bản nhấn mạnh giá trị của sự trung thực trong học tập.",
+      "hypothesis": "Văn bản cổ vũ hành vi gian lận trong thi cử.",
+      "topic": "nghi_luan",
+      "grade_level": "11",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "easy",
+      "negation_flag": "no"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0021",
+      "premise": "Đoạn trích nói về tình bạn trong những năm học phổ thông.",
+      "hypothesis": "Tác giả của đoạn trích sinh ra ở Huế.",
+      "topic": "doc_hieu",
+      "grade_level": "10",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "medium",
+      "negation_flag": "no"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0024",
+      "premise": "Giáo viên yêu cầu học sinh làm việc nhóm để thảo luận chi tiết nghệ thuật.",
+      "hypothesis": "Mỗi nhóm gồm đúng bốn học sinh.",
+      "topic": "ky_nang_viet",
+      "grade_level": "10",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "medium",
+      "negation_flag": "no"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0026",
+      "premise": "Ngữ liệu có sử dụng một câu hỏi tu từ ở cuối đoạn văn.",
+      "hypothesis": "Người viết đã từng đoạt giải văn cấp quốc gia.",
+      "topic": "tieng_viet",
+      "grade_level": "12",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "medium",
+      "negation_flag": "no"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0028",
+      "premise": "Đề bài yêu cầu liên hệ bản thân sau khi phân tích văn bản.",
+      "hypothesis": "Học sinh sẽ nộp bài bằng hình thức trực tuyến.",
+      "topic": "nghi_luan",
+      "grade_level": "12",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "medium",
+      "negation_flag": "no"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "VNLI_DEMO_0030",
+      "premise": "Giáo viên yêu cầu học sinh đọc kĩ phần chú thích trước khi trả lời câu hỏi.",
+      "hypothesis": "Bài kiểm tra sẽ kéo dài 45 phút.",
+      "topic": "ky_nang_viet",
+      "grade_level": "11",
+      "subject": "Ngu_van",
+      "source_id": "SRC0001",
+      "difficulty": "medium",
+      "negation_flag": "no"
+    }
+  }
+]
