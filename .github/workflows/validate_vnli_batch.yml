@@ -1,0 +1,87 @@
+name: validate-vnli-batch
+
+on:
+  push:
+    branches:
+      - main
+      - batch-001-real-source
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate-batch-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pandas
+
+      - name: Validate VNLI batch files
+        run: |
+          python - << 'PY'
+          import os
+          import pandas as pd
+
+          source_units_path = "data/interim/batch_001/source_units_batch_001.csv"
+          candidates_path = "data/interim/batch_001/vnli_batch_001_candidates_60.csv"
+          sources_tracker_path = "data/metadata/sources_tracker.csv"
+
+          required_source_cols = [
+              "unit_id", "source_id", "source_type", "subject", "grade_level",
+              "topic", "source_note", "text_unit", "legal_status", "usage_mode"
+          ]
+
+          required_candidate_cols = [
+              "id", "premise", "hypothesis", "seed_label", "topic",
+              "grade_level", "subject", "source_id", "license",
+              "difficulty", "negation_flag", "batch_id", "unit_id", "notes",
+              "ai_assisted", "ai_tool", "human_verified"
+          ]
+
+          assert os.path.exists(source_units_path), f"Missing {source_units_path}"
+          assert os.path.exists(candidates_path), f"Missing {candidates_path}"
+          assert os.path.exists(sources_tracker_path), f"Missing {sources_tracker_path}"
+
+          su = pd.read_csv(source_units_path)
+          ca = pd.read_csv(candidates_path)
+          st = pd.read_csv(sources_tracker_path)
+
+          missing_su = [c for c in required_source_cols if c not in su.columns]
+          missing_ca = [c for c in required_candidate_cols if c not in ca.columns]
+
+          assert not missing_su, f"source_units missing columns: {missing_su}"
+          assert not missing_ca, f"candidates missing columns: {missing_ca}"
+
+          assert su["unit_id"].is_unique, "unit_id must be unique"
+          assert ca["id"].is_unique, "candidate id must be unique"
+
+          assert len(ca) == 60, "batch_001 must contain exactly 60 candidates"
+          assert ca["seed_label"].isin(["ENT", "CON", "NEU"]).all(), "invalid seed_label found"
+          assert ca["human_verified"].isin(["yes", "no"]).all(), "human_verified must be yes/no"
+          assert ca["ai_assisted"].isin(["yes", "no"]).all(), "ai_assisted must be yes/no"
+
+          valid_tools = {"none", "Gemini", "GitHub Copilot", "Gemini+GitHub Copilot"}
+          assert ca["ai_tool"].isin(valid_tools).all(), "invalid ai_tool value"
+
+          known_source_ids = set(st["source_id"].astype(str))
+          assert ca["source_id"].astype(str).isin(known_source_ids).all(), "unknown source_id in candidates"
+          assert su["source_id"].astype(str).isin(known_source_ids).all(), "unknown source_id in source_units"
+
+          label_dist = ca["seed_label"].value_counts().to_dict()
+          print("Label distribution:", label_dist)
+
+          assert label_dist.get("ENT", 0) == 20, "ENT must be 20"
+          assert label_dist.get("CON", 0) == 20, "CON must be 20"
+          assert label_dist.get("NEU", 0) == 20, "NEU must be 20"
+
+          print("VNLI batch validation passed.")
+          PY
