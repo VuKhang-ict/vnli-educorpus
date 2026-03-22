@@ -1,1 +1,7 @@
 unit_id,source_id,source_type,subject,grade_level,topic,source_note,text_unit,legal_status,usage_mode,ai_assisted,ai_tool,human_verified
+UNIT_B001_001,SRC0101,official_document,Ngu_van,12,nghi_luan,Diễn giải ngắn từ định hướng chính thức,Mở bài cần giới thiệu được vấn đề nghị luận và định hướng triển khai ý chính.,allowed,paraphrase_only,yes,Gemini,yes
+UNIT_B001_002,SRC0102,official_document,Ngu_van,12,doc_hieu,Diễn giải từ cấu trúc đánh giá chính thức,Câu hỏi đọc hiểu yêu cầu học sinh bám vào ngữ liệu để xác định và giải thích thông tin.,allowed,paraphrase_only,no,none,yes
+UNIT_B001_003,SRC0105,open_resource,Ngu_van,11,tieng_viet,Tóm ý từ học liệu mở,Từ ngữ lặp lại nhiều lần có thể tạo nhịp điệu và nhấn mạnh cảm xúc trong đoạn thơ.,allowed,paraphrase_only,yes,Gemini,yes
+UNIT_B001_004,SRC0103,official_document,Ngu_van,11,nghi_luan,Diễn giải ngắn từ hướng dẫn làm bài,Kết bài nên khái quát vấn đề đã bàn luận và mở ra suy nghĩ thêm cho người đọc.,allowed,paraphrase_only,no,none,yes
+UNIT_B001_005,SRC0106,open_resource,Ngu_van,10,doc_hieu,Tóm ý từ học liệu mở,Chi tiết miêu tả hành động thường giúp người đọc suy ra tính cách nhân vật.,allowed,paraphrase_only,yes,Gemini,yes
+UNIT_B001_006,SRC0107,internal_authoring,Ngu_van,11,ky_nang_viet,Tự biên soạn nội bộ,Khi đề yêu cầu liên hệ bản thân, học sinh cần kết nối nội dung văn bản với trải nghiệm của mình.,allowed,self_authored,no,none,yes
